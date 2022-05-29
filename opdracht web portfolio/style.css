@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Raleway:ital,wght@1,300&display=swap');
+body{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin: 0;
+    color: #ffffff;
+    background-color: black;
+
+}
+.main { width: 100%;
+        margin: 0 auto}
+
+.inhoud{
+    margin: 30px;
+}
+
+h1 , h2{
+    font-family: 'Merriweather', serif;
+}
+h1{font-size: 80px}
+p {font-size: 35px;}
+h2{ font-size: 50px;}
+.header{
+     background-image: url(/images/header\ \(1\).png);
+     background-size: 100%;
+     background-repeat: no-repeat;
+     width: 100%;
+     margin: 0px;
+}
+
+
+.about a ,.contact a{ 
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 50px; 
+}
+.header-text {
+    justify-content: space-around;
+    padding: 50px;  
+}
+.header h1 {padding-top:50px;}
+
+.nav {
+     background-color: rgb(168, 168, 168);
+     position:sticky;
+     top: 0px;
+     padding: 10px;
+     margin: 0px;
+     width: 100%;
+    }
+.nav li{
+    display:inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+}
+.nav li a{ text-decoration: none ; 
+      color: black;
+
+}
+.interests { width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+}
+.interests-text{ 
+    margin: 50px;
+    flex: 1;
+}
+.interests img{margin-top: 50px;flex: 1;}
+
+.biografie { width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+}
+
+.biografie-text{ 
+    margin: 50px;
+    flex: 1;
+
+}
+.biografie img{
+    margin-top: 50px;
+    flex: 1;
+
+}
+
+.resume {
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+}
+.resume-text{ 
+    margin: 50px;
+    flex: 1;
+}
+.resume img{
+    margin: 50px;
+    flex: 1;}
+
+
+.contact {
+    width: 100%;
+    background-color:gray;
+padding: 30px;}
+
+@media(min-width:720px){
+    .wrapper { width: 1450px;margin: 0 auto}
+    .biografie-text{order: 2;}
+    .biografie img{
+        order: 1;
+        width: 30%;
+    }
+    .resume img{width: 30%; }
+    .interests img{width: 30%;}
+    .header-text{display: flex;
+        padding-top: 300px;
+    }
+    .header h1{ flex: 1;}
+    .header p {flex: 1; margin-top: 130px; font-size: 70px; background-color:  rgb(168, 168, 168); border-radius: 70px;}
+    .header {height: 1000px;}
+}
