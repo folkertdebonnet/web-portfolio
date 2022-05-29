@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Raleway:ital,wght@1,300&display=swap');
+body{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+h1 , h2{
+    
+    font-family: 'Merriweather', serif;}
+ p{margin: 50px;}
+.home{
+    text-align: left;
+    display: flex;
+}
+.home img{
+    height: 100px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.scouts{
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    ;
+}
+.scouts img{    
+    height: 200px;
+    width: 200px
+}
+.Thai-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Thai-box img {
+    height: 200px;
+    width: 200px;
+}
+.foto{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.foto img {
+    width: 200px;
+    height: 200px;
+}
+
+.crea {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.crea img{
+    width: 200px;
+    height: 200px;
+}
+
+@media(min-width :720px){
+    .home{
+        position: fixed;
+    padding: 10px;
+    background-color: white; 
+    border-radius: 6px;
+    }
+
+}
+@media(min-width:1000px){
+    .crea img{
+        height: 250px;
+        width: 250px;
+    }
+    .foto img{
+    height: 250px;
+    width: 250px;}
+    .Thai-box img{
+    height: 250px;
+    width: 250px;}
+    .foto{flex-wrap: nowrap;}
+    .Thai-box{flex-wrap: nowrap;}
+    .scouts{flex-wrap: nowrap;}
+    .crea {flex-wrap: nowrap;
+    }
+    p{margin-left: 200px;
+    margin-right: 200px ;
+    }}
+    
+  

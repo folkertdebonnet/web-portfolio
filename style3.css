@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Raleway:ital,wght@1,300&display=swap');
+body{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin: 0;
+    background-color: gray;
+    font-size: 30px;
+}
+h1 , h2{
+    font-family: 'Merriweather', serif;}
+ 
+    p{margin: 50px;}
+
+.Home a{
+     margin-bottom: 50px;
+     width: 100px; 
+    height: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+    background-color: black;
+    font-size: 30px;
+    border-radius: 25px;
+    padding: 20px;
+}
+.Home{ margin: 50px;}
+
+ .gegevens{ 
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+
+.gegevens img{
+    width: 250px;
+    height: 200px;
+}
+
+.phone{flex: 1;}
+
+.plaats{flex: 1}
+
+.email{flex: 1;}
